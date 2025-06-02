@@ -1,0 +1,122 @@
+/* 全局样式 */
+.stApp {
+    background-color: #f8f9fa;
+}
+
+/* 标题样式 */
+.main-title {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 章节标题样式 */
+.section-title {
+    color: #34495e;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    margin: 2rem 0 1rem 0;
+    border-bottom: 3px solid #3498db;
+    background: linear-gradient(to right, #e6f3ff, transparent);
+}
+
+/* 容器样式 */
+.styled-container {
+    background: white;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-left: 5px solid #3498db;
+}
+
+/* 卡片样式 */
+.model-card {
+    background: linear-gradient(135deg, #fad0c4 0%, #ffd1ff 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 数学公式容器 */
+.formula-container {
+    background: linear-gradient(to right, #e6f3ff, #f0f4f8);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #a1c4fd;
+}
+
+/* 指标展示样式 */
+.metrics-container {
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+/* 图表容器样式 */
+.chart-container {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* 侧边栏样式 */
+.sidebar .stButton {
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+
+/* 表格样式 */
+.styled-table {
+    border-collapse: collapse;
+    margin: 1rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.styled-table th {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem;
+}
+
+.styled-table td {
+    padding: 0.8rem;
+    border: 1px solid #e0e0e0;
+}
+
+/* 按钮样式 */
+.stButton>button {
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 滑块样式 */
+.stSlider {
+    padding: 1rem 0;
+}
+
+/* 选择框样式 */
+.stSelectbox {
+    background: white;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+} 
