@@ -117,19 +117,19 @@ def navigation_guide():
 
 create_styled_container(navigation_guide)
 
-# 添加使用提示
-with st.sidebar:
-    st.markdown('''
-    <div style="background-color: #f0f4f8; padding: 1rem; border-radius: 8px; border-left: 4px solid #3498db;">
-        <h3 style="color: #2c3e50;">💡 使用提示</h3>
-        <ol style="color: #34495e;">
-            <li>使用左侧导航栏切换不同页面</li>
-            <li>在各个模型页面调整参数</li>
-            <li>观察预测效果变化</li>
-            <li>比较不同模型的表现</li>
-        </ol>
-    </div>
-    ''', unsafe_allow_html=True)
+# # 添加使用提示
+# with st.sidebar:
+#     st.markdown('''
+#     <div style="background-color: #f0f4f8; padding: 1rem; border-radius: 8px; border-left: 4px solid #3498db;">
+#         <h3 style="color: #2c3e50;">💡 使用提示</h3>
+#         <ol style="color: #34495e;">
+#             <li>使用左侧导航栏切换不同页面</li>
+#             <li>在各个模型页面调整参数</li>
+#             <li>观察预测效果变化</li>
+#             <li>比较不同模型的表现</li>
+#         </ol>
+#     </div>
+#     ''', unsafe_allow_html=True)
 
 # 添加页脚
 st.markdown("---")
